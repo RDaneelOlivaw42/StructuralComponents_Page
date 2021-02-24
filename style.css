@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    font-family: 'Prata', serif;
+    padding-top: 60px;
+}
+
+h1{
+    color: #DCF5FF;
+    font-size: 70px;
+    text-shadow: 3px 3px 5px #DCF5FF;
+    text-align: center;
+    padding: 15px;
+}
+
+p{
+    color: #ffffff;
+    font-size: 19px;
+}
+
+h2{
+    color: #DCF5FF;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+#topHeader{
+    padding-top: 70px;
+    text-align: left;
+    padding-left: 60px;
+} 
+
+#bottomHeader{
+    text-align: right;
+    padding-top: 400px;
+    padding-right: 60px;
+}
+
+.topImg{
+    float: right;
+    width: 180px;
+    height: 510px;
+    margin-top: -70px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+#bottomImg{
+    float: left;
+    width: 400px;
+    height: 505px;
+    margin-top: -70px;
+    padding-left: 50px;
+}
+
+#topText{
+    padding-left: 60px;
+    justify-content: center;
+    margin-right: 560px;
+    margin-top: 100px;
+}
+
+#bottomText{
+    margin-top: 100px;
+    padding-right: 40px;
+    justify-content: center;
+    padding-left: 560px;
+}
+
+button {
+    padding: 13px;
+    width: 140px;
+    font-family: 'Prata', serif;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 6px;
+    margin-top: 300px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: #000000;
+}
+
+#bar {
+    margin-bottom: 150px;
+}
